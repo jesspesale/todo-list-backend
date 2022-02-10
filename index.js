@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 // bring in routes
-const postRoutes = require('routes/post')
+const {postRoutes} = require('./routes/post')
 
 // get takes 2 arguments - 1. the URL 2.callback function
 app.get('/', postRoutes.getPosts)
