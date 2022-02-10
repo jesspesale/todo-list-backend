@@ -1,4 +1,9 @@
 
 exports.getPosts = (req, res) => {
-    res.send("Hey this is Node.js express")
+    res.json({
+        list_item: [
+            {description: "Do Laudnry"}, 
+            {description: "Walk the dog"}
+        ]
+    })
 }
