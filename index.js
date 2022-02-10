@@ -10,7 +10,7 @@ app.use(morgan("dev"))
 
 
 // get takes 2 arguments - 1. the URL 2.callback function
-app.get('/', getPosts)
+app.use('/', getPosts)
 
 const port = 3000
 app.listen(port, () => {
