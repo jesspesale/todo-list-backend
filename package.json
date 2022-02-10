@@ -1,0 +1,26 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "todo-list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesspesale/todo-list-backend.git"
+  },
+  "author": "Jess Pesale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesspesale/todo-list-backend/issues"
+  },
+  "homepage": "https://github.com/jesspesale/todo-list-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
